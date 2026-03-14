@@ -10,4 +10,4 @@ public class FireEffect implements EffectImplementor {
     public String getEffectName() {
         return "Fire";
     }
-}
+} 
