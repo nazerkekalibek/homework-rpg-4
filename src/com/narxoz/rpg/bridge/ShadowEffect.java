@@ -10,4 +10,4 @@ public class ShadowEffect implements EffectImplementor {
     public String getEffectName() {
         return "Shadow";
     }
-}
+} 
