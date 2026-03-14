@@ -10,4 +10,4 @@ public class PhysicalEffect implements EffectImplementor {
     public String getEffectName() {
         return "Physical";
     }
-}
+} 
