@@ -10,4 +10,4 @@ public class IceEffect implements EffectImplementor {
     public String getEffectName() {
         return "Ice";
     }
-}
+} 
