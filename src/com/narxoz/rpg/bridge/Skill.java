@@ -30,4 +30,4 @@ public abstract class Skill {
     }
 
     public abstract void cast(CombatNode target);
-}
+} 
