@@ -32,4 +32,4 @@ public class RaidResult {
     public List<String> getLog() {
         return Collections.unmodifiableList(log);
     }
-}
+} 
