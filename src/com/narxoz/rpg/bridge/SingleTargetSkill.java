@@ -9,8 +9,8 @@ public class SingleTargetSkill extends Skill {
 
     @Override
     public void cast(CombatNode target) {
-        // TODO: Single-target Bridge action
-        // 1) Resolve final damage through effect implementor
-        // 2) Apply to target node
+        if (!target.isAlive()) return;
+        int damage=resolvedDamage();
+        target.takeDamage(damage);
     }
 }
